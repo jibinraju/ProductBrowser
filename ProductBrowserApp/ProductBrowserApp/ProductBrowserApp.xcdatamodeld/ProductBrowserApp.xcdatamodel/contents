@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="ProductInformation" representedClassName="ProductInformation" syncable="YES">
+        <attribute name="categoryname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemsremaining" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="productdescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productimageurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ProductInformation" positionX="-54" positionY="-9" width="128" height="120"/>
+    </elements>
+</model>

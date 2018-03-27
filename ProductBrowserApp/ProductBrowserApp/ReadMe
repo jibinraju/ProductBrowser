@@ -1,0 +1,70 @@
+
+About Application
+=====================
+ProductBrowser application will fetch smart device information from the cloud/server and display in GUI.
+The application shows the product image, product name, category and remaining count for sale as well.
+An app has mainly two screens, the first screen will show the product list and second screen will show individual product information.
+This application has been created for Sogeti/Capgemini, its license belongs to them;
+consider with development team / concern person before you customizing the application.
+
+Main Featuers
+================
+
+1) List all avaliable products.
+2) Snap shot of product infomation in List view.
+3) Network connection loss alter.
+4) Offline caching
+5) Individual product details
+
+About Open Source Libraries / Modules
+======================================
+
+Application is using following open sources Libraries/Modules.
+
+1)  Module Name : Reachability
+    Descripition : this module from apple and its Licensing details are avalible in module folder itself, more details refer it.
+    License : non-exclusive license
+    URL : https://developer.apple.com/library/ios/samplecode/Reachability/Introduction/Intro.html
+
+2)  Module Name : MD 5
+    Descripition : this a category in exisiting NSString calss and that code snippet is avliable in technical discussion forum.
+    License : N/A (NO License details avaliable in that forum, for more details ref below site)
+    URL : http://stackoverflow.com/questions/7264022/adding-md5-to-a-uitextfield
+
+
+3)  Module Name : UIImage Resizing
+    Descripition : this module creates a category in exisiting UIImage calss and that code snippet is avliable in technical discussion forum.
+    License : N/A
+    URL : https://gist.github.com/davinc/8507fc60498dbcf052a7
+
+
+Developement Enviroment
+=========================
+
+1) IDE - XCode v7.2
+2) iOS SDK - v9.2
+3) Minimum Deployment Target - iOS v8.0 and later.
+
+Note: At developement time mainly I tested with iPhone 6 simulator and not yet tested in real device too.
+
+
+Know Issues
+=============
+
+1) UI is quite mess-up in iPhone landscape mode.
+2) Lauch screen text is not propely aligned for iPhone 4 & 5 devices.
+2) Product detail screen is not propely working in iPhone 4 & 5 devices.
+3) In some case activity indication is not stop animating
+
+
+Pending Task
+==============
+
+1) Product detail screen animations are pending
+2) Nothing implemented for offline data security but using apple's basic featuers.
+3) Requirement document mentioned about "Service: The additional information can be found in the XML file references in the JSON file" but couldn't find any xml file over there.
+
+
+==========================================================
+Copyright (C) Sogeti/Capgemini B.V.  All rights reserved.
+
